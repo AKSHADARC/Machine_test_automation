@@ -105,8 +105,9 @@ public class LoginTest {
 	
 // enter customer name
 	WebElement customerName = driver.findElement(By.id("mat-input-36"));
+	customerName.sendKeys("abc");
 	 customerName.click();
-	 
+
 //	 click on save
 	 WebElement savebt = driver.findElement(By.cssSelector("div.text-right:nth-child(1) > div:nth-child(1) > button:nth-child(2) > div:nth-child(2)"));
 	 savebt.click();
