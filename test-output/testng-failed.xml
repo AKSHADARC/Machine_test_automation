@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginTest(failed)">
+    <parameter name="password" value="akshada123"/>
+    <parameter name="Email_id" value="akshadachaugule13@gmail.com"/>
+    <classes>
+      <class name="Maven_testng.Maven_testng.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="login" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Maven_testng.Maven_testng.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
